@@ -28,6 +28,16 @@ footer {
 	margin-top: 20px;
 	color: white;
 }
-.list-group-item {
-	color: black;
+#done-btn{
+	position: absolute;
+	left: 345px;
+	bottom: 4px;
 }
+
+@media only screen and (max-width: 600px){
+	#done-btn{
+		position: absolute;
+		left:250px;
+	}
+}
+
