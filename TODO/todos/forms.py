@@ -7,4 +7,4 @@ class TodoForm(forms.ModelForm):
     class Meta:
         model = Todo
         fields = '__all__'
-        widgets = {'task': TextInput(attrs={'class':'form-control','placeholder':'Add Todo'})}
+        widgets = {'task': TextInput(attrs={'class':'form-control','placeholder':'Enter todo e.g. Read a book', 'aria-label':'Todo', 'aria-describedby':'add-btn'})}
